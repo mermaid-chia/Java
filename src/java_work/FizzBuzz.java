@@ -20,7 +20,7 @@ public class FizzBuzz {
 				result = result + "Fizz";
 			}
 			if (num % 5 == 0) {
-				result = result + "Buzz";
+				result = result + 	"Buzz";
 			}
 			if (result.length() == 0) {
 				result = result + num;
