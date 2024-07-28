@@ -1,9 +1,16 @@
 package lesson11;
 
-public class EnumMain {
+public enum EnumMain {
+	START, END
 
-    public static void main(String[] args) {
-        System.out.println(Season.SPRING.getValue());
-    }
+	//	// logで使いたい定数
+	//	public log() {
+	//		START, END
+	//	}
+	//	
+	//	// ひとでつかいた
+	//	public man() {
+	//		MAN, WOMAN
+	//	}
 
 }
